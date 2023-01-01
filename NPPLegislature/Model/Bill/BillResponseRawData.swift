@@ -8,7 +8,7 @@
 import Foundation
 
 internal struct BillResponseRawData: Decodable {
-    let titles: String
-    let bills: [BillRawData]
-    let column: BillColumnRawData
+  let titles: String
+  let bills: [BillRawData]
+  let column: BillColumnRawData
 }

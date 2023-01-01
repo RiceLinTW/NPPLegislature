@@ -19,6 +19,9 @@
 		1A98BE87295E963C00464FF7 /* QuestionRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE86295E963C00464FF7 /* QuestionRawData.swift */; };
 		1A98BE89295E9AD400464FF7 /* QuestionColumnRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE88295E9AD400464FF7 /* QuestionColumnRawData.swift */; };
 		1A98BE8B295E9B8600464FF7 /* QuestionResponseRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE8A295E9B8600464FF7 /* QuestionResponseRawData.swift */; };
+		1A98BE902961DEAE00464FF7 /* BillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE8F2961DEAE00464FF7 /* BillListView.swift */; };
+		1A98BE922961E0B600464FF7 /* BillListCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE912961E0B600464FF7 /* BillListCore.swift */; };
+		1A98BE962961E3E500464FF7 /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE952961E3E500464FF7 /* BillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +31,15 @@
 		1A2425C6295DF3CD00D1C304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A2425C8295DF3CD00D1C304 /* NPPLegislature.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NPPLegislature.entitlements; sourceTree = "<group>"; };
 		1A2425CA295DF3CD00D1C304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1A98BE7E295E94CC00464FF7 /* BillRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillRawData.swift; sourceTree = "<group>"; };
-		1A98BE80295E955500464FF7 /* BillResponseRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillResponseRawData.swift; sourceTree = "<group>"; };
-		1A98BE82295E958700464FF7 /* BillColumnRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillColumnRawData.swift; sourceTree = "<group>"; };
-		1A98BE86295E963C00464FF7 /* QuestionRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRawData.swift; sourceTree = "<group>"; };
-		1A98BE88295E9AD400464FF7 /* QuestionColumnRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionColumnRawData.swift; sourceTree = "<group>"; };
-		1A98BE8A295E9B8600464FF7 /* QuestionResponseRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResponseRawData.swift; sourceTree = "<group>"; };
+		1A98BE7E295E94CC00464FF7 /* BillRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE80295E955500464FF7 /* BillResponseRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillResponseRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE82295E958700464FF7 /* BillColumnRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillColumnRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE86295E963C00464FF7 /* QuestionRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = QuestionRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE88295E9AD400464FF7 /* QuestionColumnRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = QuestionColumnRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE8A295E9B8600464FF7 /* QuestionResponseRawData.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = QuestionResponseRawData.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE8F2961DEAE00464FF7 /* BillListView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillListView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE912961E0B600464FF7 /* BillListCore.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillListCore.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE952961E3E500464FF7 /* BillView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			children = (
 				1A2425C2295DF3CD00D1C304 /* NPPLegislatureApp.swift */,
 				1A2425C4295DF3CD00D1C304 /* ContentView.swift */,
+				1A98BE8C2961DE6600464FF7 /* Scene */,
 				1A98BE7D295E948400464FF7 /* Model */,
 				1A2425C6295DF3CD00D1C304 /* Assets.xcassets */,
 				1A2425C8295DF3CD00D1C304 /* NPPLegislature.entitlements */,
@@ -111,6 +118,48 @@
 				1A98BE86295E963C00464FF7 /* QuestionRawData.swift */,
 				1A98BE88295E9AD400464FF7 /* QuestionColumnRawData.swift */,
 				1A98BE8A295E9B8600464FF7 /* QuestionResponseRawData.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		1A98BE8C2961DE6600464FF7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1A98BE932961E3B200464FF7 /* Bill */,
+				1A98BE8D2961DE8400464FF7 /* BillList */,
+				1A98BE942961E3C100464FF7 /* Question */,
+				1A98BE8E2961DE8F00464FF7 /* QuestionList */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1A98BE8D2961DE8400464FF7 /* BillList */ = {
+			isa = PBXGroup;
+			children = (
+				1A98BE912961E0B600464FF7 /* BillListCore.swift */,
+				1A98BE8F2961DEAE00464FF7 /* BillListView.swift */,
+			);
+			path = BillList;
+			sourceTree = "<group>";
+		};
+		1A98BE8E2961DE8F00464FF7 /* QuestionList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuestionList;
+			sourceTree = "<group>";
+		};
+		1A98BE932961E3B200464FF7 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				1A98BE952961E3E500464FF7 /* BillView.swift */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		1A98BE942961E3C100464FF7 /* Question */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Question;
 			sourceTree = "<group>";
@@ -193,11 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2425C5295DF3CD00D1C304 /* ContentView.swift in Sources */,
+				1A98BE902961DEAE00464FF7 /* BillListView.swift in Sources */,
 				1A2425C3295DF3CD00D1C304 /* NPPLegislatureApp.swift in Sources */,
 				1A98BE89295E9AD400464FF7 /* QuestionColumnRawData.swift in Sources */,
 				1A98BE8B295E9B8600464FF7 /* QuestionResponseRawData.swift in Sources */,
 				1A98BE87295E963C00464FF7 /* QuestionRawData.swift in Sources */,
+				1A98BE962961E3E500464FF7 /* BillView.swift in Sources */,
 				1A98BE81295E955500464FF7 /* BillResponseRawData.swift in Sources */,
+				1A98BE922961E0B600464FF7 /* BillListCore.swift in Sources */,
 				1A98BE83295E958700464FF7 /* BillColumnRawData.swift in Sources */,
 				1A98BE7F295E94CC00464FF7 /* BillRawData.swift in Sources */,
 			);
