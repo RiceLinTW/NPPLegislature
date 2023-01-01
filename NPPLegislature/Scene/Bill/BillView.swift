@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
-struct BillView: View {
+internal struct BillView: View {
+  
+  let store: StoreOf<Bill>
+    
   var body: some View {
     Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
   }

@@ -22,6 +22,7 @@
 		1A98BE902961DEAE00464FF7 /* BillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE8F2961DEAE00464FF7 /* BillListView.swift */; };
 		1A98BE922961E0B600464FF7 /* BillListCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE912961E0B600464FF7 /* BillListCore.swift */; };
 		1A98BE962961E3E500464FF7 /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE952961E3E500464FF7 /* BillView.swift */; };
+		1A98BE982961EB2800464FF7 /* BillCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98BE972961EB2800464FF7 /* BillCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1A98BE8F2961DEAE00464FF7 /* BillListView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillListView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		1A98BE912961E0B600464FF7 /* BillListCore.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillListCore.swift; sourceTree = "<group>"; tabWidth = 2; };
 		1A98BE952961E3E500464FF7 /* BillView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1A98BE972961EB2800464FF7 /* BillCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		1A98BE932961E3B200464FF7 /* Bill */ = {
 			isa = PBXGroup;
 			children = (
+				1A98BE972961EB2800464FF7 /* BillCore.swift */,
 				1A98BE952961E3E500464FF7 /* BillView.swift */,
 			);
 			path = Bill;
@@ -245,6 +248,7 @@
 				1A98BE902961DEAE00464FF7 /* BillListView.swift in Sources */,
 				1A2425C3295DF3CD00D1C304 /* NPPLegislatureApp.swift in Sources */,
 				1A98BE89295E9AD400464FF7 /* QuestionColumnRawData.swift in Sources */,
+				1A98BE982961EB2800464FF7 /* BillCore.swift in Sources */,
 				1A98BE8B295E9B8600464FF7 /* QuestionResponseRawData.swift in Sources */,
 				1A98BE87295E963C00464FF7 /* QuestionRawData.swift in Sources */,
 				1A98BE962961E3E500464FF7 /* BillView.swift in Sources */,
