@@ -10,26 +10,51 @@ import ComposableArchitecture
 
 internal struct Bill: ReducerProtocol {
   
-  enum BillLink: Equatable {
-    case pdf(URL: URL)
-    case doc(URL: URL)
+  struct BillLink: Equatable, Identifiable {
+    
+    enum LinkType: Equatable, Identifiable {
+      case pdf
+      case doc
+      
+      var id: String {
+        return title
+      }
+      
+      var title: String {
+        switch self {
+        case .pdf:
+          return "PDF"
+        case .doc:
+          return "DOC"
+        }
+      }
+    }
+    
+    var type: LinkType
+    var url: URL
+    
+    var id: String {
+      return "\(type.id)_\(url.absoluteString)"
+    }
   }
   
   struct State: Equatable {
-    var title: String // 議案編號、提案名稱
-    var subtitle: String // 屆別、會期、會次（臨時會次）
-    var description: String // 案由
+    var meetingInfo: String
+    var billNumber: String
+    var billOrg: String
     
-    var state: String
+    var title: String
+    var description: String
+    
+    var status: String
     var links: [BillLink]
-    
-    var billNumber: String // 議案編號
-    var billOrg: String // 提案單位/委員
   }
   
   enum Action: Equatable {
     case showBill
   }
+  
+  internal init() {}
   
   func reduce(into state: inout State, action: Action) -> ComposableArchitecture.EffectTask<Action> {
     switch action {
